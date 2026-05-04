@@ -6,6 +6,7 @@
         <item name="android:windowBackground">@color/monet_window_bg</item>
         <item name="colorBackgroundFloating">@color/monet_dialog_bg</item>
         <item name="colorPrimary">@color/monet_primaryColor</item>
+        <item name="colorPrimaryDark">@color/monet_primaryColorDark</item>
         <item name="dialogFrame">@color/monet_dialog_frame</item>
         <item name="dialogBackground">@color/monet_dialog_bg</item>
         <item name="dialogBackgroundAlt">@color/monet_dialog_bg_alt</item>
@@ -13,6 +14,7 @@
         <item name="timeCardBackground">@color/monet_card_bg</item>
         <item name="semiTransparentBackground">@color/monet_card_bg_trans</item>
         <item name="toolbarTheme">@style/ThemeOverlay.AppCompat.ActionBar</item>
+        <item name="actionModeStyle">@style/MonetActionMode.System</item>
         <item name="hrColor">@color/monet_hr</item>
         <item name="colorAccent">@color/monet_text_accent</item>
         <item name="text_accentColor">@color/monet_text_accent</item>
@@ -76,8 +78,10 @@
         <item name="actionOverflowMenuStyle">@style/MonetOverflowMenu.System</item>
         <item name="tileCardBackground">@drawable/monet_tilecard_bg_ref</item>
         <item name="popupMenuBackground">@drawable/monet_popupmenu_frame_ref</item>
-        <item name="popupControlBackground">@drawable/monet_popupmenu_frame_ref</item>
+        <item name="popupControlBackground">@drawable/monet_popupcontrol_frame_ref</item>
         <item name="spinnerStyle">@style/MonetSpinnerStyle.System</item>
+        <item name="android:alertDialogTheme">@style/MonetAlertDialogTheme.System</item>
+        <item name="alertDialogTheme">@style/MonetAlertDialogTheme.System</item>
     </style>
 
     <!-- Material You (Dark) -->
@@ -85,6 +89,7 @@
         <item name="android:windowBackground">@color/monet_dark_window_bg</item>
         <item name="colorBackgroundFloating">@color/monet_dark_dialog_bg</item>
         <item name="colorPrimary">@color/monet_dark_primaryColor</item>
+        <item name="colorPrimaryDark">@color/monet_dark_primaryColorDark</item>
         <item name="dialogFrame">@color/monet_dark_dialog_frame</item>
         <item name="dialogBackground">@color/monet_dark_dialog_bg</item>
         <item name="dialogBackgroundAlt">@color/monet_dark_dialog_bg_alt</item>
@@ -92,6 +97,7 @@
         <item name="timeCardBackground">@color/monet_dark_card_bg</item>
         <item name="semiTransparentBackground">@color/monet_dark_card_bg_trans</item>
         <item name="toolbarTheme">@style/ThemeOverlay.AppCompat.ActionBar</item>
+        <item name="actionModeStyle">@style/MonetActionMode.Dark</item>
         <item name="hrColor">@color/monet_dark_hr</item>
         <item name="colorAccent">@color/monet_dark_text_accent</item>
         <item name="text_accentColor">@color/monet_dark_text_accent</item>
@@ -154,8 +160,10 @@
         <item name="actionOverflowMenuStyle">@style/MonetOverflowMenu.Dark</item>
         <item name="tileCardBackground">@drawable/monet_tilecard_bg_dark</item>
         <item name="popupMenuBackground">@drawable/monet_popupmenu_frame_dark</item>
-        <item name="popupControlBackground">@drawable/monet_popupmenu_frame_dark</item>
+        <item name="popupControlBackground">@drawable/monet_popupcontrol_frame_dark</item>
         <item name="spinnerStyle">@style/MonetSpinnerStyle.Dark</item>
+        <item name="android:alertDialogTheme">@style/MonetAlertDialogTheme.Dark</item>
+        <item name="alertDialogTheme">@style/MonetAlertDialogTheme.Dark</item>
     </style>
 
     <!-- Material You (Light) -->
@@ -163,6 +171,7 @@
         <item name="android:windowBackground">@color/monet_light_window_bg</item>
         <item name="colorBackgroundFloating">@color/monet_light_dialog_bg</item>
         <item name="colorPrimary">@color/monet_light_primaryColor</item>
+        <item name="colorPrimaryDark">@color/monet_light_primaryColorDark</item>
         <item name="dialogFrame">@color/monet_light_dialog_frame</item>
         <item name="dialogBackground">@color/monet_light_dialog_bg</item>
         <item name="dialogBackgroundAlt">@color/monet_light_dialog_bg_alt</item>
@@ -170,6 +179,7 @@
         <item name="timeCardBackground">@color/monet_light_card_bg</item>
         <item name="semiTransparentBackground">@color/monet_light_card_bg_trans</item>
         <item name="toolbarTheme">@style/ThemeOverlay.AppCompat.ActionBar</item>
+        <item name="actionModeStyle">@style/MonetActionMode.Light</item>
         <item name="hrColor">@color/monet_light_hr</item>
         <item name="colorAccent">@color/monet_light_text_accent</item>
         <item name="text_accentColor">@color/monet_light_text_accent</item>
@@ -232,8 +242,10 @@
         <item name="actionOverflowMenuStyle">@style/MonetOverflowMenu.Light</item>
         <item name="tileCardBackground">@drawable/monet_tilecard_bg_light</item>
         <item name="popupMenuBackground">@drawable/monet_popupmenu_frame_light</item>
-        <item name="popupControlBackground">@drawable/monet_popupmenu_frame_light</item>
+        <item name="popupControlBackground">@drawable/monet_popupcontrol_frame_light</item>
         <item name="spinnerStyle">@style/MonetSpinnerStyle.Light</item>
+        <item name="android:alertDialogTheme">@style/MonetAlertDialogTheme.Light</item>
+        <item name="alertDialogTheme">@style/MonetAlertDialogTheme.Light</item>
     </style>
 
 </resources>
