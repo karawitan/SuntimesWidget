@@ -31,14 +31,6 @@ jobs:
       - name: Build release APK
         run: ./gradlew assembleRelease
 
-      - name: Upload build artifacts
-        run: |
-          mkdir -p artifacts
-          cp app/build/outputs/apk/debug/app-debug.apk artifacts/ 2>/dev/null || true
-          cp app/build/outputs/apk/release/app-release-unsigned.apk artifacts/ 2>/dev/null || true
-          echo "Build artifacts:"
-          ls -la artifacts/
-
   deploy:
     runs-on: adb-usb
     needs: build
@@ -64,7 +56,7 @@ jobs:
       - name: Check ADB devices
         run: |
           adb devices
-          adb devices | grep -w "device" | grep -v "List" || echo "WARNING: No device connected"
+          adb devices | grep -w "device" | grep -v "List" || { echo "ERROR: No device connected"; exit 1; }
 
       - name: Install APK on device
         run: |
